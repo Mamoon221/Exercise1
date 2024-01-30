@@ -93,31 +93,70 @@
 //5 + 6 +'4' + 9-4-2; RESULT WILL BE 1143. BECAUSE 5 + 6= 11. 4 IS IN STRING IT COMES AS ITS OWN AND 9-4-2 WILL COME 3.
 //console.log(5+6+'4'+9-4-2);
 //let language = 'Arabic';
-let language = prompt('Enter your local language'); // WE CAN ALSO TAKE INPUT FROM THE USER
-switch (language) {
+// let language = prompt('Enter your local language'); // WE CAN ALSO TAKE INPUT FROM THE USER
+// switch (language) {
 
-    case 'Chinese and mandarin':
-        console.log('Most Number of native Speakers!');
-        break;
-    case 'Spanish':
-        console.log('2nd place in Number of native Speakers!');
-        break;
-    case 'English':
-        console.log('3rd place in Number of native Speakers!');
-        break;
-    case 'hindi':
-        console.log('4th place in Number of native Speakers!');
-        break;
-    case 'Arabic':
-        console.log('5th place in Number of native Speakers!');
-        break;
-    default:
-        console.log('Great Language Too');
+//     case 'Chinese and mandarin':
+//         console.log('Most Number of native Speakers!');
+//         break;
+//     case 'Spanish':
+//         console.log('2nd place in Number of native Speakers!');
+//         break;
+//     case 'English':
+//         console.log('3rd place in Number of native Speakers!');
+//         break;
+//     case 'hindi':
+//         console.log('4th place in Number of native Speakers!');
+//         break;
+//     case 'Arabic':
+//         console.log('5th place in Number of native Speakers!');
+//         break;
+//     default:
+//         console.log('Great Language Too');
+
+//}
+
+// let population = 2000000;
+ //let population = 13;
+ let population = 130;
 
 
 
+let half = population/2;
+population+=1;
 
+console.log(population);
+
+let finland = 6000000;
+if(population > finland){
+    console.log('Pakistan has more population');
 }
+else{
+    console.log('Finland has more population');
+}
+
+let avgPopulation = 33
+if(population < avgPopulation){
+    console.log('Pakistan has more population');
+}
+else{
+    console.log('Avg Country has more population');
+}
+
+
+
+let description = 'Portugal is in Europe, and its 11 million people speak portuguese';
+
+if(population > avgPopulation){
+    console.log('Portugals population is above average');
+}
+else{
+    console.log('Portugal population is 22 million below average');
+}
+
+
+
+ 
 
 
 
